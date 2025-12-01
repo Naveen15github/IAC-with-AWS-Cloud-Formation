@@ -9,7 +9,7 @@ For this, I created:
 - **DynamoDB Table** with streams enabled  
 - **IAM User Group** for managing permissions  
 
-![Alt Text](image-path-or-URL)
+![Alt Text](https://github.com/Naveen15github/IAC-with-AWS-Cloud-Formation/blob/0428a1cff39a3dbccde17c89080712b35912ed71/a140a7c9-333b-4755-8e5d-0698868ff3c9.png)
 
 ## What I Did
 
@@ -53,26 +53,28 @@ The **stack name** I used for this lab is: `s3-bucket-dynamodb-iam-usergroup`.
 1. (Optional) Configure advanced options like **IAM roles, stack policies, and rollback settings**.  
 2. Click **Next**.
 
-![Alt Text](image-path-or-URL)
+![Alt Text](https://github.com/Naveen15github/IAC-with-AWS-Cloud-Formation/blob/0428a1cff39a3dbccde17c89080712b35912ed71/Screenshot%20(142).png)
 
 ### Step 5: Review and Create
 1. Review all stack details carefully.  
 2. Acknowledge that CloudFormation might create IAM resources by checking the box **“I acknowledge that AWS CloudFormation might create IAM resources”**.  
 3. Click **Create stack**.
 
-![Alt Text](image-path-or-URL)
+![Alt Text](https://github.com/Naveen15github/IAC-with-AWS-Cloud-Formation/blob/0428a1cff39a3dbccde17c89080712b35912ed71/Screenshot%20(143).png)
 
 ### Step 6: Monitor Stack Creation
 - Wait for the status to show **CREATE_COMPLETE**.  
+
+![Alt Text](https://github.com/Naveen15github/IAC-with-AWS-Cloud-Formation/blob/0428a1cff39a3dbccde17c89080712b35912ed71/Screenshot%20(145).png)
 
 ### Step 7: Verify Resources
 - Go to **S3** to check the bucket with encryption and HTTPS-only policy.  
 - Go to **DynamoDB** to see the table and streams enabled.  
 - Go to **IAM** to check the newly created user group.
 
-![Alt Text](image-path-or-URL)
-![Alt Text](image-path-or-URL)
-![Alt Text](image-path-or-URL)
+![Alt Text](https://github.com/Naveen15github/IAC-with-AWS-Cloud-Formation/blob/0428a1cff39a3dbccde17c89080712b35912ed71/Screenshot%20(146).png)
+![Alt Text](https://github.com/Naveen15github/IAC-with-AWS-Cloud-Formation/blob/0428a1cff39a3dbccde17c89080712b35912ed71/Screenshot%20(147).png)
+![Alt Text](https://github.com/Naveen15github/IAC-with-AWS-Cloud-Formation/blob/0428a1cff39a3dbccde17c89080712b35912ed71/Screenshot%20(148).png)
 
 ### Step 8: Clean Up (Optional)
 To delete all resources created by the stack:  
